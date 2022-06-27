@@ -5,6 +5,7 @@ const bodyParser  = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const Blog = require('./model/Blog');
+const blogRouter = require('./routes/blog');
 
 const port = process.env.PORT || 3000;
 const dev = process.env.NODE_ENV !== 'production';
@@ -17,48 +18,15 @@ app.prepare().then(() => {
 
     mongoose.connect(process.env.MD_ATLAS, {dbName: process.env.DB_NAME}, {useNewUrlParser : true});
     mongoose.connection.once('open', () => {
-        console.log('MongoDB connection established');
+        console.log('DataBase connection established');
     });
 
 
     server.use(express.json());
     server.use(bodyParser.urlencoded({ extended: false }));
     server.use(bodyParser.json());
+    server.use("/blog", blogRouter.router);
 
-    server.post("/", async (req, res) => {
-
-        const title = req.body.title;
-        const date = req.body.date;
-
-        const blog = new Blog({title: title, categories: { cloud: true, phone: true},  date: date});
-        try {
-            await blog.save();
-            console.log("success");
-            res.redirect(307, '/test');
-        }catch (err) {
-            console.log(err);
-        }
-    });
-    server.get("/getall", async (req, res) => {
-        try {
-            const all = await Blog.find({"categories.cloud": true});
-            console.log(all);
-            res.json(all);
-        }catch (err) {
-            console.log(err);
-        }
-
-    })
-
-    server.delete("/del", async (req, res) => {
-        try {
-            const blog =  await Blog.deleteMany({ title: "the article"});
-            console.log("deleted");
-            res.end();
-        }catch (err) {
-            console.log(err);
-        }
-    })
 
     server.all('*', (req, res) => {
         return handle(req, res)

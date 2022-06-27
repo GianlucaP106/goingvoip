@@ -6,7 +6,8 @@ const blogSchema = new mongoose.Schema({
     categories: {
         cloud: Boolean,
         phone: Boolean
-    }
+    },
+    number: Number
 })
 
 module.exports = mongoose.model("Blog", blogSchema);

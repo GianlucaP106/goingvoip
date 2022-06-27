@@ -4,25 +4,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export async function getStaticProps(context) {
-
-  const res = await fetch("http://localhost:3000/getall", { method: "GET" });
-  const json = await res.json();
-  
-  const title = json[0].title;
-  return {
-    props: {
-      title: title 
-    }
-  }
-}
 
 export default function Home(props) {
-
-  function deleteAll() {
-    fetch("/del", {
-      method: "DELETE"
-    });
+  function hello() {
+    console.log("hello");
   }
   return (
     <div>
@@ -32,17 +17,8 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <form action="/" method="POST">
-          <label>title</label>
-          <input type="text" name="title"/>
-          <label>date</label>
-          <input type="text" name="date"/>
-          <button type="submit">submit</button>
-        </form>
-        <button onClick={deleteAll}>delete</button>
-
-        
+      <main>
+        <button type="button" onClick={() => hello()}>click</button>        
       </main>
     </div>
   )

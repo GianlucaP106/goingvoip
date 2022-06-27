@@ -1,1 +1,5 @@
-DELETE http://localhost:3000/del
+POST http://localhost:3000/blog/create
+
+###
+
+DELETE http://localhost:3000/blog/delete/1
