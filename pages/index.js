@@ -6,9 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export default function Home(props) {
-  function hello() {
-    console.log("hello");
-  }
   return (
     <div>
       <Head>
@@ -17,8 +14,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <button type="button" onClick={() => hello()}>click</button>        
+      <main>   
       </main>
     </div>
   )
