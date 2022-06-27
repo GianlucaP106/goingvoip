@@ -28,10 +28,9 @@ app.prepare().then(() => {
     server.post("/", async (req, res) => {
 
         const title = req.body.title;
-        const category = req.body.category;
         const date = req.body.date;
 
-        const blog = new Blog({title: title, category: category, date: date});
+        const blog = new Blog({title: title, categories: { cloud: true, phone: true},  date: date});
         try {
             await blog.save();
             console.log("success");
@@ -42,7 +41,7 @@ app.prepare().then(() => {
     });
     server.get("/getall", async (req, res) => {
         try {
-            const all = await Blog.find({category: ["cloud"]});
+            const all = await Blog.find({"categories.cloud": true});
             console.log(all);
             res.json(all);
         }catch (err) {
@@ -53,7 +52,7 @@ app.prepare().then(() => {
 
     server.delete("/del", async (req, res) => {
         try {
-            const blog =  await Blog.deleteMany({ hairColor: "brown"});
+            const blog =  await Blog.deleteMany({ title: "the article"});
             console.log("deleted");
             res.end();
         }catch (err) {

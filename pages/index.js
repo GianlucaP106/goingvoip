@@ -4,7 +4,20 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Home() {
+export async function getStaticProps(context) {
+
+  const res = await fetch("http://localhost:3000/getall", { method: "GET" });
+  const json = await res.json();
+  
+  const title = json[0].title;
+  return {
+    props: {
+      title: title 
+    }
+  }
+}
+
+export default function Home(props) {
 
   function deleteAll() {
     fetch("/del", {
@@ -23,13 +36,13 @@ export default function Home() {
         <form action="/" method="POST">
           <label>title</label>
           <input type="text" name="title"/>
-          <label>categories</label>
-          <input type="text" name="category"/>
           <label>date</label>
           <input type="text" name="date"/>
           <button type="submit">submit</button>
         </form>
         <button onClick={deleteAll}>delete</button>
+
+        
       </main>
     </div>
   )
