@@ -1,0 +1,15 @@
+.navRequestButton {
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 23.5px;
+    background-color: #AEC05F;
+    height: 35px;
+  }
+
+  .navPadFix {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  /* .navbar-toggler {
+    color: black;
+  } */
