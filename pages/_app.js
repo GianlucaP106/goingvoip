@@ -1,5 +1,11 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import '../styles/globals.css'
 import "../styles/Navibar.css";
+import "../styles/Welcome.css";
+import "../styles/CardSection.css";
+import "../styles/CloudCard.css";
+import "../styles/Footer.css";
+
 import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {

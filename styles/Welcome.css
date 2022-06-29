@@ -1,0 +1,20 @@
+.welcomeBgImg {
+    background-image: url("/assets/welcomeBG.png");
+    width: 100%;
+    /* height: 60vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcomeRowPad {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 0;
+    width: 100%;
+}
+
+/* .welcomeColPad {
+    padding-left: 100px;
+    padding-right: 100px;
+} */

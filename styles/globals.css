@@ -6,3 +6,63 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.row {
+  width: 100%;
+}
+
+
+@font-face {
+  font-family: ourFont;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+@font-face {
+  font-family: ourFontLight;
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+}
+
+.ourFont {
+  font-family: ourFont;
+  font-family: 'Montserrat', sans-serif;
+}
+.ourFontLight {
+  font-family: ourFontLight;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.centerText {
+  text-align: center;
+}
+.centerItem {
+  display: flex;
+  justify-content: center;
+}
+.textShadow {
+  text-shadow: -1px 1px 3px #808080;
+}
+
+.greenButton {
+  border-style: solid;
+  border-width: 0px;
+  background-color: #AEC05F;
+  border-radius: 23.5px;
+  height: 35px;
+}
+
+.fontSize40 {
+  font-size: 40px;
+}
+.fontSize48 {
+  font-size: 48px;
+}
+.fontSize32 {
+  font-size: 32px;
+}
+.fontSize20 {
+  font-size: 20px;
+}
+.fontSize24 {
+  font-size: 24px;
+}
+.fontSize14 {
+  font-size: 14px;
+}

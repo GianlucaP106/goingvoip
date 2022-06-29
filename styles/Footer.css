@@ -1,0 +1,75 @@
+.footerBg {
+    background-color: #333333;
+}
+
+.footerTitleBrand {
+    display: flex;
+    justify-content: flex-start;
+}
+.footerTitleQ {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footerGray {
+    color: #9A9A9A;
+}
+
+.footerLeftDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerTitleBrandRow {
+    padding-left: 50px;
+}
+
+.footerLogo {
+    width: 100px;
+    margin: 20px;
+}
+.footerText {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footerTextRow {
+    padding-left: 70px;
+}
+.footerBorderLeft {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1.5px solid #ffff;
+    border-bottom: 1.5px solid #ffff;
+}
+.footerBorderRight {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+}
+
+@media only screen and (max-width: 768px) {
+    #questionsP {
+        font-size: 20px;
+    }
+    .footerLogo {
+        width: 70px;
+    }
+    .footerTitleBrandRow {
+        padding-left: 10px;
+    }
+    .footerTextRow {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #footerColFix {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #questionsP {
+        font-size: 18px;
+    }
+}

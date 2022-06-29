@@ -1,0 +1,59 @@
+.cloudCard {
+    background-color: white;
+    box-shadow: 0px 4px 5px 1px #808080;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    width: 556px;
+    height: 296px;
+}
+
+.cloudIconContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconBox {
+    box-shadow: 0px 1px 3px 0px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 60px;
+    height: 64px;
+}
+
+.cardBottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.learnMorePosition {
+    position: relative;
+    top: 22px;
+}
+
+.linkPointer:hover {
+    cursor: pointer;
+}
+
+.learnMoreLeft {
+    padding-top: 150px;
+}
+.learnMoreRight {
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cloudCard {
+        width: 333px;
+        height: 222px;
+    }
+    .learnMoreLeft {
+        padding-top: 75px;
+    }
+    .learnMoreRight {
+        padding-top: 52px;
+    }
+}

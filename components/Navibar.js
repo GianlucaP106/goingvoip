@@ -20,7 +20,7 @@ export default function Navibar() {
                                 <Nav.Link className="text-black navPadFix" style={{display: "flex", alignItems: "center"}} href="">Plans and pricing</Nav.Link>
                                 {/* <Nav.Link className="text-black navPadFix" style={{display: "flex", alignItems: "center"}} href="">Industries</Nav.Link> */}
                                 <Nav.Link className="text-black navPadFix" href="" style={{textDecoration: "none", color: "black", display: "flex", alignItems: "center"}}>About Us </Nav.Link>
-                                <Nav.Link className="text-black navPadFix" href="" style={{paddingBottom: "10px"}}><button className="navRequestButton" style={{color: "white"}}>Request a Quote</button></Nav.Link>
+                                <Nav.Link className="text-black navPadFix" href="" style={{paddingBottom: "10px"}}><button className="greenButton" style={{color: "white"}}>Request a Quote</button></Nav.Link>
                                 {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
