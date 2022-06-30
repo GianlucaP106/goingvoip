@@ -17,6 +17,7 @@ app.prepare().then(() => {
     server.use(bodyParser.urlencoded({ extended: false }));
     server.use(bodyParser.json());
 
+
     server.all('*', (req, res) => {
         return handle(req, res)
     });
@@ -30,3 +31,5 @@ app.prepare().then(() => {
     console.log(`> Error: ${err}`);
     process.exit(1);
 });
+
+//nodemon server/index.js

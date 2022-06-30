@@ -9,6 +9,9 @@ body {
 .row {
   width: 100%;
 }
+.col {
+  padding-right: 0;
+}
 
 
 @font-face {
@@ -28,6 +31,9 @@ body {
   font-family: ourFontLight;
   font-family: 'Montserrat', sans-serif;
 }
+.colorFFF {
+  color: #ffff;
+}
 
 .centerText {
   text-align: center;
@@ -43,7 +49,7 @@ body {
 .greenButton {
   border-style: solid;
   border-width: 0px;
-  background-color: #AEC05F;
+  background-color: #43A97A;
   border-radius: 23.5px;
   height: 35px;
 }

@@ -9,3 +9,10 @@
 .cardSectionBg {
     background-color: #fafafa;
 }
+
+@media only screen and (max-width: 768px) {
+    .mobileCard {
+        padding-top: 50px;
+    }
+
+}

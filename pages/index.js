@@ -5,17 +5,13 @@ import { useState } from "react";
 
 import Welcome from "../components/Welcome";
 import CardSection from "../components/CardSection";
+import Services from "../components/Services";
 
 import styles from '../styles/Home.module.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
 export default function Home(props) {
-  const [state, setState] = useState(0);
-
-  function up() {
-    setState(state + 1);
-  }
   return (
     <div>
       <Head>
@@ -25,8 +21,9 @@ export default function Home(props) {
       </Head>
 
       <main>
-        <Welcome count={state}/>
+        <Welcome/>
         <CardSection />
+        <Services />
       </main>
     </div>
   )

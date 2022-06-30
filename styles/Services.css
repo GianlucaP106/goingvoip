@@ -1,0 +1,39 @@
+.officePicRounding {
+    border-style: solid;
+    border-width: 0;
+    border-radius: 0px 57px 57px 0px;
+}
+
+.monthlyFeeDiv {
+    background-color: #333333;
+    border: 0px solid;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.teamsLogo {
+    width: 247px;
+    height: 81px;
+}
+
+@media only screen and (max-width: 768px) {
+    #officeImgContainer {
+        display: none;
+    }
+    .servicesFontMobile {
+        font-size: 16px;
+    }
+    .teamsLogo {
+        width: 185.25px;
+        height: 60.75px;
+    }
+    #servicesFontMobile {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .industryGradeDiv {
+        padding-left: 60px;
+    }
+}

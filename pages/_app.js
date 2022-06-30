@@ -5,6 +5,7 @@ import "../styles/Welcome.css";
 import "../styles/CardSection.css";
 import "../styles/CloudCard.css";
 import "../styles/Footer.css";
+import "../styles/Services.css";
 
 import Layout from "../components/Layout";
 
