@@ -6,6 +6,8 @@ import "../styles/CardSection.css";
 import "../styles/CloudCard.css";
 import "../styles/Footer.css";
 import "../styles/Services.css";
+import "../styles/PriceSection.css";
+import "../styles/PriceCard.css";
 
 import Layout from "../components/Layout";
 

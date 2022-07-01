@@ -36,4 +36,7 @@
     .industryGradeDiv {
         padding-left: 60px;
     }
-}
+    #servicesRowImg {
+        padding-left: 0;    
+    }
+}   

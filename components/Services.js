@@ -7,7 +7,7 @@ export default function Services() {
                     <h1 className="ourFont fontSize48" style={{fontWeight: "bold"}}>Why Choose <br /> GoingVoIP</h1> 
                 </div>
             </div>
-            <div className="row" style={{paddingBottom: "50px", paddingTop: "0"}}>
+            <div className="row" id="servicesRowImg" style={{paddingBottom: "50px", paddingTop: "0", paddingLeft: "0"}}>
                 <div className="col-5" id="officeImgContainer">
                     <img className="officePicRounding" style={{width: "630px", height: "654px"}} src="/assets/services/officePic.png" alt="office image"/>
                 </div>

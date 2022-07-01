@@ -22,7 +22,7 @@ export default function CardSection() {
                     </div>
                 </div>
                 <div className="row" style={{paddingBottom: "100px", paddingTop: "50px"}}>
-                    <div className="col-md-6 centerItem mobileCard">
+                    <div className="col-md-6 centerItem mobileCard" style={{}}>
                         <CloudCard title={"Contact Center"} theIcon={"/assets/contactCenterIcon.png"} theAlt={"Contact Center Icon"} theLink={""} rightSide={false} style={{marginLeft: "20px", marginRight: "15px"}}/>
                     </div>
                     <div className="col-md-6 centerItem mobileCard">

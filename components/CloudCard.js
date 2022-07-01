@@ -5,7 +5,7 @@ export default function CloudCard(props) {
         <div className="cloudCard">
             <div className="row">
                 <div className="col-10" style={{paddingLeft: "30px", paddingTop: "20px"}}>
-                    <h5 className="ourFont fontSize20" style={{color: "#AEC05F"}}>SimplyVoysis</h5>
+                    <h5 className="ourFont fontSize20 ourGreen">SimplyVoysis</h5>
                     <h6 className="ourFont fontSize20 textShadow">{props.title}</h6>
                 </div>
                 <div className="col-2 cloudIconContainer">

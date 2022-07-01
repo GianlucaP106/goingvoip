@@ -8,8 +8,15 @@ body {
 
 .row {
   width: 100%;
+  padding-left: 12px;
 }
 .col {
+  padding-right: 0;
+}
+.col-md-6 {
+  padding-right: 0;
+}
+.col-md {
   padding-right: 0;
 }
 
@@ -42,6 +49,18 @@ body {
   display: flex;
   justify-content: center;
 }
+.myAlignLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+.myAlignRight {
+  display: flex;
+  justify-content: flex-end;
+}
+.noDisplay {
+  display: none;
+}
+
 .textShadow {
   text-shadow: -1px 1px 3px #808080;
 }
@@ -52,6 +71,10 @@ body {
   background-color: #43A97A;
   border-radius: 23.5px;
   height: 35px;
+  color: #ffff;
+}
+.ourGreen {
+  color: #43A97A;
 }
 
 .fontSize40 {
@@ -68,6 +91,9 @@ body {
 }
 .fontSize24 {
   font-size: 24px;
+}
+.fontSize16 {
+  font-size: 16px;
 }
 .fontSize14 {
   font-size: 14px;
