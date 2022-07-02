@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="77px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-contact-center-experts</title>
+    <defs>
+        <circle id="path-1" cx="43.1762678" cy="8.21590736" r="5.80952381"></circle>
+        <circle id="path-2" cx="8.25866147" cy="43.1335137" r="5.80952381"></circle>
+        <circle id="path-3" cx="43.1762678" cy="43.8181726" r="5.80952381"></circle>
+        <circle id="path-4" cx="8.25866147" cy="8.90056631" r="5.80952381"></circle>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Voysis-Homepage" transform="translate(-540.000000, -1223.000000)">
+            <g id="icon-contact-center-experts" transform="translate(540.000000, 1223.000000)">
+                <rect id="Rectangle-Copy-12" x="0" y="0" width="77" height="77"></rect>
+                <path d="M33.426244,39.0962475 C34.4055317,41.1061365 36.0407986,42.7271976 38.0656097,43.6953102 C38.3694809,43.8383118 38.7267236,43.811346 39.0053786,43.6243735 L41.979331,41.6499687 C42.2464052,41.4699374 42.5877437,41.4386914 42.8834125,41.5672092 L48.4506513,43.9435886 C48.8417777,44.1053798 49.075626,44.5072601 49.0216501,44.9248796 C48.6566025,47.7566052 46.2317513,49.8779824 43.3592449,49.8786259 C34.4242161,49.8786259 27.1809441,42.6798189 27.1809441,33.7996405 C27.1815915,30.9447679 29.3160719,28.5348023 32.1652882,28.1719957 C32.5854873,28.1183512 32.9898499,28.3507639 33.1526404,28.7394893 L35.5436981,34.2843746 C35.6699667,34.5733145 35.643206,34.9057697 35.4723232,35.1710834 L33.4857231,38.1740704 C33.3058749,38.4502625 33.28335,38.7994937 33.426244,39.0962475 Z" id="Path" stroke="#2C2E30" stroke-width="2.25" fill="#FFFBE4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group-22" transform="translate(12.440206, 13.482960)">
+                    <circle id="Oval" stroke="#2C2E30" stroke-width="2.25" transform="translate(24.690476, 26.017040) rotate(-360.000000) translate(-24.690476, -26.017040) " cx="24.6904762" cy="26.01704" r="24.6904762"></circle>
+                    <g id="Oval" transform="translate(43.176268, 8.215907) rotate(-45.000000) translate(-43.176268, -8.215907) ">
+                        <circle stroke="#2C2E30" stroke-width="2.25" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="43.1762678" cy="8.21590736" r="4.68452381"></circle>
+                        <circle stroke="#FFFFFF" stroke-width="1.8" cx="43.1762678" cy="8.21590736" r="6.70952381"></circle>
+                    </g>
+                    <g id="Oval-Copy-3" transform="translate(8.258661, 43.133514) rotate(-45.000000) translate(-8.258661, -43.133514) ">
+                        <circle stroke="#2C2E30" stroke-width="2.25" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="8.25866147" cy="43.1335137" r="4.68452381"></circle>
+                        <circle stroke="#FFFFFF" stroke-width="1.8" cx="8.25866147" cy="43.1335137" r="6.70952381"></circle>
+                    </g>
+                    <g id="Oval-Copy-2" transform="translate(43.176268, 43.818173) rotate(-45.000000) translate(-43.176268, -43.818173) ">
+                        <circle stroke="#2C2E30" stroke-width="2.25" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="43.1762678" cy="43.8181726" r="4.68452381"></circle>
+                        <circle stroke="#FFFFFF" stroke-width="1.8" cx="43.1762678" cy="43.8181726" r="6.70952381"></circle>
+                    </g>
+                    <g id="Oval-Copy-4" transform="translate(8.258661, 8.900566) rotate(-45.000000) translate(-8.258661, -8.900566) ">
+                        <circle stroke="#2C2E30" stroke-width="2.25" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" cx="8.25866147" cy="8.90056631" r="4.68452381"></circle>
+                        <circle stroke="#FFFFFF" stroke-width="1.8" cx="8.25866147" cy="8.90056631" r="6.70952381"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

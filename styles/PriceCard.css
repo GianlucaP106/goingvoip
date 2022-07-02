@@ -1,7 +1,7 @@
 .priceCard {
     border: 0px solid;
     border-radius: 40px;
-    box-shadow: 0px 2px 10px 1px;
+    box-shadow: 0px 2px 6px 0px #c3c3c3;
     width: 376px;
     height: 524px;
 }
