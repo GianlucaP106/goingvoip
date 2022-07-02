@@ -38,7 +38,7 @@ export default function ContactText(props) {
             </div>
             <div className="row">
                 <div className="col-5 leftText" style={{display: "flex", alignItems: "center"}}>
-                    <button className="greenButton">Pricing & plans</button>
+                    <button className="greenButton ourFont fontSize14">Pricing & plans</button>
                 </div>
                 <div className="col-7 myAlignRight">
                     <Link href={""}><p className="learnMorePosition ourFont fontSize14 linkPointer" style={{marginBottom: "0"}}>Request a quote</p></Link>

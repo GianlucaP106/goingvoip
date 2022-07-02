@@ -16,6 +16,9 @@ body {
 .col-md-6 {
   padding-right: 0;
 }
+.col-md-5 {
+  padding-right: 0;
+}
 .col-md {
   padding-right: 0;
 }
@@ -94,6 +97,9 @@ body {
 }
 .fontSize20 {
   font-size: 20px;
+}
+.fontSize22 {
+  font-size: 22px;
 }
 .fontSize24 {
   font-size: 24px;

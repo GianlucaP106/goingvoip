@@ -6,6 +6,12 @@
     /* width: 466.5px;
     height: 348.75px; */
 }
+.monthlyFeeDiv2 {
+    background-color: #333333;
+    border: 0px solid;
+    border-radius: 15px;
+    width: 60%;
+}
 
 .contactTitleLeft {
     display: flex;
@@ -28,6 +34,9 @@
     .contactOfficeImages {
         width: 373.2px;
         height: 279px;
+    }
+    .monthlyFeeDiv2 {
+        width: 80%;
     }
 }
 

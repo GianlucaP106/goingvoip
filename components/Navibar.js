@@ -9,7 +9,7 @@ export default function Navibar() {
 
     return(
         <section>
-            <div style={{boxShadow: "0px 10px 10px #c6c6c6"}}>
+            <div style={{boxShadow: "0px 4px 2px 0px #c6c6c6"}}>
                 <Navbar collapseOnSelect expand="lg" className="bgColor" variant="light">
                     <Container>
                         <Navbar.Brand href="#homeSection"><img src="/goingvoipLogo.png" className="brandFixPosition" alt="SK Construction logo" height="60" /></Navbar.Brand>

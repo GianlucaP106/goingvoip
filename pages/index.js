@@ -8,7 +8,6 @@ import CardSection from "../components/CardSection";
 import Services from "../components/Services";
 import PriceSection from "../components/PriceSection";
 
-import styles from '../styles/Home.module.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 

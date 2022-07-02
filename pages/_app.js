@@ -10,6 +10,8 @@ import "../styles/PriceSection.css";
 import "../styles/PriceCard.css";
 import "../styles/ContactTitle.css";
 import "../styles/ContactText.css";
+import "../styles/ContactPlatform.css";
+import "../styles/Multimedia.css";
 
 import Layout from "../components/Layout";
 
