@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import PriceCard from "../components/PriceCard";
 
-export default function PriceSection() {
+export default function PriceSection(props) {
     function lookUp(priceState) {
         if (priceState == 1) { // 1-20
             const info = {
@@ -48,7 +48,7 @@ export default function PriceSection() {
     }
 
     return(
-        <section>
+        <section id={props.pageID}>
             <div className="row">
                 <div className="col centerText">
                     <h1 className="ourFont fontSize16 ourGreen" style={{fontWeight: 'bold', paddingTop: "30px", paddingBottom: "30px"}}>Plans and Pricing</h1>

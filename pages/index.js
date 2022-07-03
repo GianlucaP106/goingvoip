@@ -24,7 +24,7 @@ export default function Home(props) {
         <Welcome/>
         <CardSection />
         <Services />
-        <PriceSection />
+        <PriceSection pageID={"priceSection1"}/>
       </main>
     </div>
   )

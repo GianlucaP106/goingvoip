@@ -77,7 +77,7 @@ export default function Multimedia() {
                 <div className="col-lg-5 multimediaMobilePad">
                     <div className="row">
                         <div className="col centerItem">
-                            <div className="multimediaBox multimediaBoxMobile">
+                            <div className="multimediaBox" id="multimediaBoxMobile">
                                 <div className="row" style={{paddingBottom: "10px", paddingTop: "10px", paddingLeft: "20px"}}>
                                     <div className="col-9">
                                         <h3 className="ourFont ourGreen fontSize20">Web Chat</h3>
@@ -92,7 +92,7 @@ export default function Multimedia() {
                     </div>
                     <div className="row" style={{paddingTop: "60px"}}>
                         <div className="col centerItem">
-                            <div className="multimediaBox multimediaBoxMobile">
+                            <div className="multimediaBox" id="multimediaBoxMobile">
                                 <div className="row" style={{paddingBottom: "10px", paddingTop: "10px", paddingLeft: "20px"}}>
                                     <div className="col">
                                         <h3 className="ourFont ourGreen fontSize20">SimplyVoysis Keep My Place in Queue</h3>

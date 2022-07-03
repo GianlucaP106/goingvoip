@@ -2,7 +2,7 @@ import CloudCard from "./CloudCard";
 
 export default function CardSection() {
     return(
-        <section className="cardSectionBg">
+        <section className="cardSectionBg" id="productsSection">
             <section className="titleGradiantBg">
                 <div className="row" style={{paddingTop: "50px"}}>
                     <div className="col centerText">

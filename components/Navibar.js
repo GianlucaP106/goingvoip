@@ -12,12 +12,12 @@ export default function Navibar() {
             <div style={{boxShadow: "0px 4px 2px 0px #c6c6c6"}}>
                 <Navbar collapseOnSelect expand="lg" className="bgColor" variant="light">
                     <Container>
-                        <Navbar.Brand href="#homeSection"><img src="/goingvoipLogo.png" className="brandFixPosition" alt="SK Construction logo" height="60" /></Navbar.Brand>
+                        <Navbar.Brand href="/"><img src="/goingvoipLogo.png" className="brandFixPosition" alt="SK Construction logo" height="60" /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto ms-auto">
-                                <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="">Products</Nav.Link>
-                                <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="">Plans and pricing</Nav.Link>
+                                <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="/#productsSection">Products</Nav.Link>
+                                <Nav.Link className="text-black navPadFix navPosFix" style={{display: "flex", alignItems: "center"}} href="/#priceSection1">Plans and pricing</Nav.Link>
                                 {/* <Nav.Link className="text-black navPadFix" style={{display: "flex", alignItems: "center"}} href="">Industries</Nav.Link> */}
                                 <Nav.Link className="text-black navPadFix navPosFix" href="" style={{textDecoration: "none", color: "black", display: "flex", alignItems: "center"}}>About Us </Nav.Link>
                                 <Nav.Link className="text-black navPadFix navPosFix" href="" style={{paddingBottom: "10px"}}><button className="greenButton" style={{color: "white"}}>Request a Quote</button></Nav.Link>

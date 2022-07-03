@@ -76,6 +76,21 @@ justify-content: space-evenly;
     #box3 {
         padding-right: 0;
     }
+    #card1 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    #card2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    #card3 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 788px) and (max-width: 1169px) {
