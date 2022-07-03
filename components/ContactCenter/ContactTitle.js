@@ -8,7 +8,7 @@ export default function ContactTitle() {
                 <div className="col" id="responsiveColContact"></div>
                 <div className="col-md-5 contactTitleLeft contactTextColMobile" id="contactTitle1">
                     <div className="">
-                        <ContactText box={1}/>
+                        <ContactText box={1} imgLink={"/assets/contactCenterIcon.png"}/>
                     </div>
                 </div>
                 <div className="col-1" id="responsiveColContact"></div>
@@ -25,7 +25,7 @@ export default function ContactTitle() {
                 <div className="col-1" id="responsiveColContact"></div>
                 <div className="col-md-5 contactTitleRight contactTextColMobile">
                     <div className="">
-                        <ContactText box={2}/>
+                        <ContactText box={2} imgLink={""}/>
                     </div>
                 </div>
                 <div className="col" id="responsiveColContact"></div>

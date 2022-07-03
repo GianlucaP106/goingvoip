@@ -1,0 +1,23 @@
+
+
+
+.seeFeaturesButton {
+    border: 0px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #43A97A;
+}
+
+@media only screen and (max-width: 991px) {
+    #responsiveColSolution {
+        display: none;
+    }
+    #solution1 {order: 2}
+    #solution2 {order: 1}
+
+    .solutionMobileCol {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}

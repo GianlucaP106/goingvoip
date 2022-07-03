@@ -26,7 +26,7 @@ export default function CardSection() {
                         <CloudCard title={"Contact Center"} theIcon={"/assets/contactCenterIcon.png"} theAlt={"Contact Center Icon"} theLink={"/contact-center"} rightSide={false} style={{marginLeft: "20px", marginRight: "15px"}}/>
                     </div>
                     <div className="col-md-6 centerItem mobileCard">
-                        <CloudCard title={"Cloud VoIP Telephony Solution"} theIcon={"/assets/cloudTelIcon.png"} theAlt={"Cloud Telephony Icon"} theLink={""} rightSide={true} style={{marginLeft: "15px", marginRight: "20px"}}/>
+                        <CloudCard title={"Cloud VoIP Telephony Solution"} theIcon={"/assets/cloudTelIcon.png"} theAlt={"Cloud Telephony Icon"} theLink={"/cloud-voip-telephony-solution"} rightSide={true} style={{marginLeft: "15px", marginRight: "20px"}}/>
                     </div>
                 </div>
             </section>

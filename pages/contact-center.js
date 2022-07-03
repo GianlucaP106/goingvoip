@@ -22,4 +22,4 @@ export default function ContactCenter(props) {
         </main>
       </div>
     )
-  }
+}

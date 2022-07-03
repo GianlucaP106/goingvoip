@@ -58,6 +58,10 @@ body {
   display: flex;
   justify-content: center;
 }
+.centerItemV {
+  display: flex;
+  align-items: center;
+}
 .myAlignLeft {
   display: flex;
   justify-content: flex-start;
@@ -91,6 +95,9 @@ body {
 }
 .fontSize48 {
   font-size: 48px;
+}
+.fontSize36 {
+  font-size: 36px;
 }
 .fontSize32 {
   font-size: 32px;

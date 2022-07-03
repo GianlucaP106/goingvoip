@@ -6,6 +6,9 @@
     /* width: 466.5px;
     height: 348.75px; */
 }
+.cloudFeaturesImg {
+    width: 622px;
+}
 .monthlyFeeDiv2 {
     background-color: #333333;
     border: 0px solid;
@@ -29,11 +32,17 @@
         width: 466.5px;
         height: 348.75px;
     }
+    .cloudFeaturesImg {
+        width: 466.5px;
+    }
 }
 @media only screen and (max-width: 990px) {
     .contactOfficeImages {
         width: 373.2px;
         height: 279px;
+    }
+    .cloudFeaturesImg {
+        width: 373.2px;
     }
     .monthlyFeeDiv2 {
         width: 80%;
