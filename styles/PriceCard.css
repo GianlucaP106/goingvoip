@@ -14,9 +14,76 @@
 .pricesTextFix {
     margin-bottom: 10px;
 }
+.viewMore2 {
+    background-color: #333333;
+    color: #ffff;
+    border: 0px solid; 
+    border-radius: 10px;  
+}
+.viewMore13 {
+    background-color: #ffff;
+    color: #333333;
+    border: 0px solid;
+    border-radius: 10px
+}
+.viewMore2:focus {
+    background-color: #333333;
+    color: #ffff;
+    border-color: #333333;
+    
+}
+.viewMore13:focus {
+    background-color: #ffff;
+    color: #333333;
+    border-color: #ffff;
+    
+}
+.viewMore13:hover {
+    background-color: #333333;
+    color: #ffff;
+}
+.viewMore2:hover {
+    background-color: #ffff;
+    color: #333333;
+}
+
+@media only screen and (min-width: 768px) {
+    #cardStartedButtonSmall {
+        display: none;
+    }
+    #cardTextMobile {
+        display: none;
+    }
+    #msTextMobile {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 767px) {
+    .cardButtonRowPad {
+        padding-top: 30px;
+    }
+    .cardButtonRowPad3 {
+        padding-top: 30px;
+    }
     .priceCard {
         width:  100%;
+        height: auto;
     }
+    #cardStartedButtonBig {
+        display: none;
+    }
+    #cardTextBig {
+        display: none;
+    }
+    #msTeamsBig {
+        display: none;
+    }
+    #startedButtonSmall {
+        width: 75%;
+        /* height: 100px; */
+    }
+    /* #startedButtonSmallDiv {
+        width: 75%;
+    } */
 }

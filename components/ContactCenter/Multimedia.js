@@ -111,6 +111,14 @@ export default function Multimedia() {
                 </div>
                 <div className="col" id="responsiveColMultimedia"></div>
             </div>
+            <div className="row" style={{paddingBottom: "50px"}}>
+                <div className="col centerItem">
+                    <div className="monthlyFeeDiv2 centerText" style={{paddingBottom: "20px"}}>
+                        <p className="ourFont fontSize20 colorFFF" id="servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>Get high-end telecom functionalities for a low monthly fee</p>
+                        <button className="greenButton colorFFF" type="button" style={{width: "140px"}}>Get Started</button>
+                    </div>
+                </div>
+            </div>
         </section>
     );
 }
