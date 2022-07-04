@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import SolutionTitle from "../components/Solution/SolutionTitle";
 import SolutionJourney from "../components/Solution/SolutionJourney";
+import SolutionDevice from '../components/Solution/SolutionDevice';
 
 export default function cloudVoipTelephonySolution() {
     return(
@@ -15,6 +16,7 @@ export default function cloudVoipTelephonySolution() {
             <main>
                 <SolutionTitle />
                 <SolutionJourney />
+                <SolutionDevice />
             </main>
         </div>
     );

@@ -14,6 +14,7 @@ import "../styles/ContactPlatform.css";
 import "../styles/Multimedia.css";
 import "../styles/SolutionTitle.css";
 import "../styles/SolutionJourney.css";
+import "../styles/SolutionDevice.css";
 
 import Layout from "../components/Layout";
 

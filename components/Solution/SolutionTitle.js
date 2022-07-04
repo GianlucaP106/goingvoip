@@ -1,4 +1,4 @@
-
+import GetStarted from "../GetStarted";
 import ContactText from "../ContactCenter/ContactText";
 
 export default function SolutionTitle() {
@@ -15,7 +15,7 @@ export default function SolutionTitle() {
                 </div>
                 <div className="col" id="responsiveColSolution"></div>
             </div> 
-            <div className="row" style={{paddingTop: "50px", paddingBottom: "50px"}}>
+            <div className="row" style={{paddingTop: "50px", paddingBottom: "50px", margin: "0"}}>
                 <div className="col" id="responsiveColSolution"></div>
                 <div className="col-lg-5 solutionMobileCol centerItemV centerItem">
                     <img src="assets/services/cloudFeatures.png" alt="cloud features" className="cloudFeaturesImg"/>
@@ -52,10 +52,7 @@ export default function SolutionTitle() {
             </div>
             <div className="row" style={{paddingBottom: "50px"}}>
                 <div className="col centerItem">
-                    <div className="monthlyFeeDiv2 centerText" style={{paddingBottom: "20px"}}>
-                        <p className="ourFont fontSize20 colorFFF" id="servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>Find out more about our Multimedia Contact Center functions</p>
-                        <button className="greenButton colorFFF" type="button" style={{width: "140px"}}>Get Started</button>
-                    </div>
+                    <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"}/>
                 </div>
             </div>
         </section>

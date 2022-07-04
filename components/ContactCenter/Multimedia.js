@@ -1,3 +1,5 @@
+import GetStarted from "../GetStarted";
+
 export default function Multimedia() {
     return(
         <section>
@@ -113,10 +115,7 @@ export default function Multimedia() {
             </div>
             <div className="row" style={{paddingBottom: "50px"}}>
                 <div className="col centerItem">
-                    <div className="monthlyFeeDiv2 centerText" style={{paddingBottom: "20px"}}>
-                        <p className="ourFont fontSize20 colorFFF" id="servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>Get high-end telecom functionalities for a low monthly fee</p>
-                        <button className="greenButton colorFFF" type="button" style={{width: "140px"}}>Get Started</button>
-                    </div>
+                    <GetStarted title={"Find out more about our Multimedia Contact Center functions"}/>
                 </div>
             </div>
         </section>

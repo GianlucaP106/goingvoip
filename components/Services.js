@@ -1,3 +1,4 @@
+import GetStarted from "./GetStarted";
 
 export default function Services() {
     return(
@@ -50,10 +51,7 @@ export default function Services() {
                     </div>
                     <div className="row" style={{paddingTop: "20px"}}>
                         <div className="col centerItem">
-                            <div className="monthlyFeeDiv centerText" style={{paddingBottom: "20px"}}>
-                                <p className="ourFont fontSize20 colorFFF" id="servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>Get high-end telecom functionalities for a low monthly fee</p>
-                                <button className="greenButton colorFFF" type="button" style={{width: "140px"}}>Get Started</button>
-                            </div>
+                            <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"}/>
                         </div>
                     </div>
                 </div>
