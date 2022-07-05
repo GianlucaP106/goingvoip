@@ -24,13 +24,13 @@ export default function SolutionTitle() {
                 <div className="col-lg-5 solutionMobileCol">
                     <div>
                         <div className="row">
-                            <div className="col">
+                            <div className="col" style={{paddingLeft: "0"}}>
                                 <h1 className="ourFont fontSize36" style={{fontWeight: "bold"}}>Cloud-based Business Phone Systems</h1>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col" style={{paddingLeft: "0"}}>
-                                <div style={{paddintBottom: "10px", paddingTop: "10px"}}>
+                                <div style={{paddingBottom: "10px", paddingTop: "10px"}}>
                                     <p className="ourFont fontSize16" >Migrating to cloud communications should be a key objective for any organization. SimplyVoysis is an enhanced and affordable cloud business phone system that allows you to modernize and host your business phone system in the cloud. </p>
                                     <p className="ourFont fontSize16" >Our SimplyVoysis platform has all the communication tools needed to make your business competitive. </p>
                                 </div>

@@ -1,0 +1,26 @@
+
+    #deviceImg {
+        width: 500px;
+    }
+    #deviceImg1 {
+        width: 300px;
+    }
+@media only screen and (max-width: 767px) {
+    #mobileOrder1{order: 2}
+    #mobileOrder2{order: 1}
+    .solutionDeviceCol {
+        padding-bottom: 50px;
+    }
+    #deviceImg {
+        width: 400px;
+    }
+    #deviceImg1 {
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .solutionTextDiv {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

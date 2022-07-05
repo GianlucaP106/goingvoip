@@ -3,6 +3,7 @@ import Head from 'next/head';
 import SolutionTitle from "../components/Solution/SolutionTitle";
 import SolutionJourney from "../components/Solution/SolutionJourney";
 import SolutionDevice from '../components/Solution/SolutionDevice';
+import PriceSection from '../components/PriceSection';
 
 export default function cloudVoipTelephonySolution() {
     return(
@@ -17,6 +18,7 @@ export default function cloudVoipTelephonySolution() {
                 <SolutionTitle />
                 <SolutionJourney />
                 <SolutionDevice />
+                <PriceSection />
             </main>
         </div>
     );
