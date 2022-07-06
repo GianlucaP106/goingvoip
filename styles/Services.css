@@ -15,11 +15,15 @@
     width: 247px;
     height: 81px;
 }
+.officePicServices {
+    width: 630px;
+    height: 654px;
+}
 
 @media only screen and (max-width: 768px) {
-    #officeImgContainer {
+    /* #officeImgContainer {
         display: none;
-    }
+    } */
     .servicesFontMobile {
         font-size: 16px;
     }
@@ -40,3 +44,23 @@
         padding-left: 0;    
     }
 }   
+
+@media only screen and (max-width: 1200px) {
+    .officePicServices {
+        width: 630px;
+    }
+    .imgCenterServices {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    .officePicRounding {
+        border-radius: 57px
+    }
+}
+@media only screen and (max-width: 600px) {
+    .officePicServices {
+        width: 307px;
+        height: 270px;
+    }
+}

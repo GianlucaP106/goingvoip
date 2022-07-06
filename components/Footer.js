@@ -19,12 +19,12 @@ export default function Footer() {
                     <h6 className="footerText">1-833-GO2VOIP</h6>
                     <h6 className="footerText">info@goingvoip.com</h6>
                 </div>
-                <div className="col-5 centerText footerBorderRight">
-                    <h6 className="footerText footerGray">Solutions</h6>
-                    <h6 className="footerText">Contact Center</h6>
-                    <h6 className="footerText">Cloud Telephony Solution</h6>
+                <div className="col-6 centerText footerBorderRight">
+                    <h6 className="footerText footerGray footerTextCenter">Solutions</h6>
+                    <h6 className="footerText footerTextCenter">Contact Center</h6>
+                    <h6 className="footerText footerTextCenter">Cloud Telephony Solution</h6>
                 </div>
-                <div className="col-4 footerBorderRight" id="footerColFix"></div>
+                <div className="col-3 footerBorderRight" id="footerColFix"></div>
             </div>
         </section>
     );

@@ -28,6 +28,12 @@ body {
 .col-md {
   padding-right: 0;
 }
+.col-xl-5 {
+  padding-right: 0;
+}
+.col-xl {
+  padding-right: 0;
+}
 
 
 @font-face {
