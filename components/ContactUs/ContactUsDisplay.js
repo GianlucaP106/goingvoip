@@ -53,7 +53,7 @@ export default function ContactUsDisplay() {
                 </div>
                 <div className="row" style={{paddingTop: "25px", paddingBottom: "25px"}}>
                     <div className="col-4">
-                        <div className="contactUcIcon centerItem centerItemV" style={{width: '110px', height: "100px"}}>
+                        <div className="contactUcIcon centerItem centerItemV" style={{width: '110px', height: "100px"}}> 
                             <img src="/assets/services/webexLogo.png" alt="message icon" style={{width: '100px'}}/>
                         </div>
                     </div>

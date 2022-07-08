@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
-import ContactUsDisplay from "../components/ContactUs/ContactUsDisplay";
+
+import ContactUs from '../components/ContactUs/ContactUs';
 
 export default function contactUs() {
     return(
@@ -12,7 +13,7 @@ export default function contactUs() {
             </Head>
 
             <main>
-                <ContactUsDisplay />
+                <ContactUs />
             </main>
         </div>
     );

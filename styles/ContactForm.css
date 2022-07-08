@@ -1,0 +1,22 @@
+.contactForm {
+    box-shadow: 0px 4px 5px 1px #c3c3c3;
+    border: solid 0px;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.inputCol {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.formRow {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formInput {
+    padding: 10px;
+    width: 100%;
+}

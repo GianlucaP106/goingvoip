@@ -17,10 +17,11 @@ app.prepare().then(() => {
     server.use(bodyParser.urlencoded({ extended: false }));
     server.use(bodyParser.json());
 
-
+    
     server.all('*', (req, res) => {
         return handle(req, res)
     });
+
 
 
     server.listen(port, err => {

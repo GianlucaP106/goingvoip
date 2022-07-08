@@ -16,6 +16,8 @@ import "../styles/SolutionTitle.css";
 import "../styles/SolutionJourney.css";
 import "../styles/SolutionDevice.css";
 import "../styles/ContactUsDisplay.css";
+import "../styles/ContactUs.css";
+import "../styles/ContactForm.css";
 
 import Layout from "../components/Layout";
 
