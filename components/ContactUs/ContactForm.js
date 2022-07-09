@@ -9,7 +9,7 @@ export default function ContactForm() {
 
     return(
         <div className="contactForm">
-            <div className="row" style={{paddingTop: "100px"}}>
+            <div className="row" style={{paddingTop: "60px"}}>
                 <div className="col centerText">
                     <h6 className="ourFont fontSize16" style={{fontWeight: "bold"}}>Get in touch with on of our experts!</h6>
                     <img src="/assets/goingvoipLogo2.png" alt="GoingVoIP Logo" style={{width: "158px"}}/>
@@ -18,11 +18,11 @@ export default function ContactForm() {
             <div className="row">
                 <div className="col">
                     <div>
-                        <form onSubmit={onFormSubmit}>
+                        <form method="post" action="/api/hello">
                             <div className="row formRow">
                                 <div className="col-6">
                                     <label>First Name</label>
-                                    <input className="formInput" type="text" placeholder="First Name" id="formFirstName"/>
+                                    <input className="formInput" type="text" placeholder="First Name" id="formFirstName" name="formFirstName"/>
                                 </div>
                                 <div className="col-6" style={{paddingRight: "0"}}>
                                     <label>Last Name</label>
