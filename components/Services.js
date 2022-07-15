@@ -16,7 +16,7 @@ export default function Services() {
                     <div className="row">
                         <div className="col-6 centerText">
                             <div>
-                                <img style={{width: "81px", height: "81px"}} src="/assets/services/profSupport.png" alt="support image"/>
+                                <img style={{width: "81px", height: "81px"}} src="/assets/services/profSupport.svg" alt="support image"/>
                                 <h6 className="ourFont fontSize24 servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>Professional Support</h6>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ export default function Services() {
                     <div className="row" style={{paddingTop: "20px"}}>
                         <div className="col-6 centerText">
                             <div className="industryGradeDiv">
-                                <img style={{width: "81px", height: "81px"}} src="/assets/services/industryGrade.png" alt="support image"/>
+                                <img style={{width: "81px", height: "81px"}} src="/assets/services/industryGrade.svg" alt="support image"/>
                                 <h6 className="ourFont fontSize24 servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>Industry Grade Contact Center Experts</h6>
                             </div>
                         </div>

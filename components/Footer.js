@@ -1,3 +1,5 @@
+
+
 export default function Footer() {
     return(
         <section className="footerBg">   
@@ -7,7 +9,7 @@ export default function Footer() {
                 </div>
                 <div className="col footerTitleQ" style={{color: "#ffff"}}>
                     <p className="fontSize32 ourFont" style={{marginBottom: "0", marginRight: "10px", fontWeight: "bold"}} id="questionsP">Questions?</p>
-                    <button className="greenButton" type="button" style={{width: "140px", color: "#ffff"}}>Get Started</button>
+                    <a href="/contact-us"><button className="greenButton" type="button" style={{width: "140px", color: "#ffff"}}>Get Started</button></a>
                 </div>
             </div>
             <div className="row footerTextRow" style={{color: "#ffff", paddingTop: "15px", paddingBottom: "30px"}}>

@@ -7,7 +7,7 @@ export default function SolutionTitle() {
             <div className="row d-flex" style={{paddingTop: "50px"}}>
                 <div className="col" id="responsiveColSolution"></div>
                 <div className="col-lg-5 solutionMobileCol" id="solution1">
-                    <ContactText box={3} imgLink={"/assets/icons/cloudIcon.png"}/>
+                    <ContactText box={3} imgLink={"/assets/contactCenterIcon.svg"}/>
                 </div>
                 <div className="col" id="responsiveColSolution"></div>
                 <div className="col-lg-5 solutionMobileCol centerItemV centerItem" id="solution2">

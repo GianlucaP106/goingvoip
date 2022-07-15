@@ -4,7 +4,7 @@ import ContactUsDisplay from "./ContactUsDisplay";
 
 export default function ContactUs() {
     return(
-        <section>
+        <section className="contactUsBg">
             <div className="row" style={{paddingTop: "25px", paddingBottom: "25px"}}>
                 <div className="col-md-6 centerItem centerItemV">
                     <ContactUsDisplay />

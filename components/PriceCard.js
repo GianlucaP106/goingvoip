@@ -50,7 +50,7 @@ export default function PriceCard(props) {
             </div>
             <div className={"row " + (props.card === 3 ? "cardButtonRowPad3" : "cardButtonRowPad")} id="cardStartedButtonSmall">
                 <div className="col centerText">
-                    <button className="greenButton" type="button" style={{ boxShadow: "0px 2px 10px 2px #808080"}} id="startedButtonSmall">Get Started</button>
+                    <a href="/contact-us"><button className="greenButton" type="button" style={{ boxShadow: "0px 2px 10px 2px #808080"}} id="startedButtonSmall">Get Started</button></a>
                 </div>
             </div>
             <div className="row">
@@ -96,7 +96,7 @@ export default function PriceCard(props) {
             </div>
             <div className={"row " + (props.card === 3 ? "cardButtonRowPad3" : "cardButtonRowPad")} id="cardStartedButtonBig">
                 <div className="col centerText">
-                    <button className="greenButton" type="button" style={{width: "150px", boxShadow: "0px 2px 10px 2px #808080"}}>Get Started</button>
+                    <a href="/contact-us"><button className="greenButton" type="button" style={{width: "150px", boxShadow: "0px 2px 10px 2px #808080"}}>Get Started</button></a>
                 </div>
             </div>
         </div>

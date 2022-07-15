@@ -93,7 +93,7 @@ export default function PriceSection(props) {
             </div>
             <div className="row" style={{paddingBottom: "20px"}}>
                 <div className="col myAlignRight">
-                    <img src="/assets/goingvoipLogo2.png" alt="GoingVoip logo"/>
+                    <img src="/assets/goingvoipLogo2.png" alt="GoingVoip logo" style={{width: "100px", marginRight: "20px"}}/>
                 </div>
             </div>
         </section>

@@ -10,7 +10,7 @@ export default function ContactPlatform() {
                 <div className="col-md centerText platformPad">
                     <div className="centerItem platFormIconPad">
                         <div className="platformIconDiv">
-                            <img src="/assets/icons/headSetIcon.svg"  alt="headset icon" style={{width: '100px'}}/>
+                            <img src="/assets/contactCenterIcon.svg"  alt="headset icon" style={{width: '100px'}}/>
                         </div>
                     </div>
                     <h2 className="ourFont fontSize22" style={{fontWeight: "bold"}}> Contact Center Agent</h2>
@@ -19,7 +19,7 @@ export default function ContactPlatform() {
                 <div className="col-md centerText platformPad">
                     <div className="centerItem platFormIconPad">
                         <div className="platformIconDiv">
-                            <img src="/assets/icons/contactSupervisorIcon.png"  alt="Contact supervisor icon" style={{}}/>
+                            <img src="/assets/icons/contactSupervisorIcon.svg"  alt="Contact supervisor icon" style={{}}/>
                         </div>
                     </div>
                     <h2 className="ourFont fontSize22" style={{fontWeight: "bold"}}>Contact Center Supervisor</h2>
@@ -28,7 +28,7 @@ export default function ContactPlatform() {
                 <div className="col-md centerText platformPad">
                     <div className="centerItem platFormIconPad">
                         <div className="platformIconDiv">
-                            <img src="/assets/icons/callRecordingIcon.png"  alt="Call recording icon" style={{width: "100px"}}/>
+                            <img src="/assets/icons/callRecordingcIcon.svg"  alt="Call recording icon" style={{width: "100px"}}/>
                         </div>
                     </div>
                     <h2 className="ourFont fontSize22" style={{fontWeight: "bold"}}>Call Recording</h2>

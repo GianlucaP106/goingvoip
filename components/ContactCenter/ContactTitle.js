@@ -9,7 +9,7 @@ export default function ContactTitle() {
                 <div className="col" id="responsiveColContact"></div>
                 <div className="col-md-5 contactTitleLeft contactTextColMobile" id="contactTitle1">
                     <div className="">
-                        <ContactText box={1} imgLink={"/assets/contactCenterIcon.png"}/>
+                        <ContactText box={1} imgLink={"/assets/contactCenterIcon.svg"}/>
                     </div>
                 </div>
                 <div className="col-1" id="responsiveColContact"></div>
