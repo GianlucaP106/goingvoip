@@ -114,8 +114,12 @@ export default function Multimedia() {
                 <div className="col" id="responsiveColMultimedia"></div>
             </div>
             <div className="row" style={{paddingBottom: "50px"}}>
-                <div className="col centerItem">
-                    <GetStarted title={"Find out more about our Multimedia Contact Center functions"}/>
+                <div className="col-1"></div>
+                <div className="col-10 centerItem">
+                    <GetStarted title={"Find out more about our Multimedia Contact Center functions"} text={"Talk to an expert"}/>
+                </div>
+                <div className="col-1 d-flex">
+                    <img className="logoBottom" src="/assets/goingvoipLogo2.png" alt="GoingVoIP Logo" style={{width: "100%"}}/>
                 </div>
             </div>
         </section>

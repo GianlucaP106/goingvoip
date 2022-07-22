@@ -1,12 +1,12 @@
 export default function ContactPlatform() {
     return(
         <section>
-            <div className="row" style={{paddingTop: '60px', paddingBottom: '40px'}}>
+            <div className="row" style={{paddingTop: '100px', paddingBottom: '40px'}}>
                 <div className="col centerText">
                     <h1 className="ourFont fontSize22" style={{fontWeight: 'bold'}}>Endless opportunities, one platform</h1>
                 </div>
             </div>
-            <div className="row" style={{paddingBottom: "60px"}}>
+            <div className="row" style={{paddingBottom: "100px"}}>
                 <div className="col-md centerText platformPad">
                     <div className="centerItem platFormIconPad">
                         <div className="platformIconDiv">

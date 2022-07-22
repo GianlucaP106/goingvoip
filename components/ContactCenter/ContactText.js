@@ -25,7 +25,7 @@ export default function ContactText(props) {
         }
     }
     return(
-        <div className="" style={{margin: "auto"}}>
+        <div className="" style={{paddingTop: "120px"}}>
             <div className="row">
                 <div className={"col-3 centerItemV centerItem " + ((props.box == 1 || props.box == 3) ? "" : "noDisplay")}>
                     <div className="contactTextIcon centerItemV centerItem" style={{width: "120px", height: "120px"}}>
@@ -35,7 +35,7 @@ export default function ContactText(props) {
                 <div className="col">
                     <div style={{paddingLeft: (props.box == 1 ? "30px" : ""), paddingTop: "20px"}}>
                         <h5 className={"ourFont fontSize20 ourGreen " + ((props.box == 1 || props.box == 3) ? "" : "noDisplay")}>SimplyVoysis</h5>
-                        <h1 className="ourFont fontSize48 contactTitleMobile" >{cardSelector(props.box).title}</h1>
+                        <h1 className="ourFont fontSize36 contactTitleMobile" style={{fontWeight: "bold"}} >{cardSelector(props.box).title}</h1>
                     </div>
                 </div>  
             </div>

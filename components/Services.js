@@ -51,7 +51,7 @@ export default function Services() {
                     </div>
                     <div className="row" style={{paddingTop: "20px"}}>
                         <div className="col centerItem">
-                            <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"}/>
+                            <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"} text={"Get Started"} />
                         </div>
                     </div>
                 </div>

@@ -10,8 +10,8 @@ export default function SolutionDevice() {
                 <div className="col-md-7 centerItem centerItemV">
                     <div className="solutionTextDiv">
                         <h1 className="ourFont fontSize20 ourGreen" style={{fontWeight: "bold"}}>UBoss Self Serve Portal</h1>
-                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Save time, manage your phone system online</h3>
-                        <p className="ourFont fontSize16">The ability to manage your phone system without having to place a service call to your provider.</p>
+                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Manage your phone system online, Save time!</h3>
+                        <p className="ourFont fontSize16">The capacity to operate your phone system without calling your provider for assistance - the SimplyVoysis way!</p>
                     </div>
                 </div>
             </div>
@@ -19,8 +19,8 @@ export default function SolutionDevice() {
                 <div className="col-md-7 centerItem centerItemV" id="mobileOrder1">
                     <div className="solutionTextDiv">
                         <h1 className="ourFont fontSize20 ourGreen" style={{fontWeight: "bold"}}>Device Configuration</h1>
-                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Any new device, automatically configured</h3>
-                        <p className="ourFont fontSize16">Any endpoint that is required to consume service, such as an IP phone, is automatically configured.</p>
+                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Every new device gets instantly set up</h3>
+                        <p className="ourFont fontSize16">Automatic configuration of all IP devices.</p>
                         <div className="row">
                             <div className="col-6" style={{borderBottom: "1px solid black", borderTop: "1px solid black", paddingBottom: "20px", paddingTop: "20px", paddingLeft: "0"}}>
                                 <h6 className="ourFont fontSize24 centerItemV" style={{fontWeight: "bold", marginBottom: "0"}}>See Details</h6>
@@ -44,8 +44,8 @@ export default function SolutionDevice() {
                 <div className="col-md-7 centerItem centerItemV">
                     <div className="solutionTextDiv">
                         <h1 className="ourFont fontSize20 ourGreen" style={{fontWeight: "bold"}}>MS Teams Integration</h1>
-                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Full Teams Experience with Phone App</h3>
-                        <p className="ourFont fontSize16">Add calling to teams to increase productivity. Work on desktop and mobile to free your workforce. The native Teams calling experience is familiar to use. E911 Support.</p>
+                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Enjoy the full Teams experience with Phone App</h3>
+                        <p className="ourFont fontSize16">To boost productivity, add calling to teams. To free up your workers, work on desktop and mobile devices. It is easy to use the native Teams calling interface. E911 assistance included.</p>
                         <div>
                             <div className="row">
                                 <div className="col-6" style={{borderBottom: "1px solid black", borderTop: "1px solid black", paddingBottom: "15px", paddingTop: "15px", paddingLeft: "0"}}>
@@ -85,8 +85,8 @@ export default function SolutionDevice() {
                 <div className="col-md-7 centerItem centerItemV" id="mobileOrder1">
                     <div className="solutionTextDiv">
                         <h1 className="ourFont fontSize20 ourGreen" style={{fontWeight: "bold"}}>Reporting</h1>
-                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Scheduled Reports Feature</h3>
-                        <p className="ourFont fontSize16">Voysis’ portal offers reporting has now been enhanced with Scheduled Reports. The following reports can be schduled:</p>
+                        <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Scheduled Reports </h3>
+                        <p className="ourFont fontSize16">View which scheduled reports have enhanced GoingVoIP’s portal.</p>
                         <div>
                             <div className="row">
                                 <div className="col-6" style={{borderBottom: "1px solid black", borderTop: "1px solid black", paddingBottom: "15px", paddingTop: "15px", paddingLeft: "0"}}>
@@ -113,7 +113,7 @@ export default function SolutionDevice() {
                     <div className="solutionTextDiv">
                         <h1 className="ourFont fontSize20 ourGreen" style={{fontWeight: "bold"}}>Invoicing</h1>
                         <h3 className="ourFont fontSize24" style={{fontWeight: "bold"}}>Access your customers invoices online</h3>
-                        <p className="ourFont fontSize16">Voysis’ portal offers reporting has now been enhanced with Scheduled Reports. The following reports can be schduled:</p>
+                        <p className="ourFont fontSize16">Easy access to your detailed invoices.</p>
                         <div>
                             <div className="row">
                                 <div className="col-6" style={{borderBottom: "1px solid black", borderTop: "1px solid black", paddingBottom: "15px", paddingTop: "15px", paddingLeft: "0"}}>

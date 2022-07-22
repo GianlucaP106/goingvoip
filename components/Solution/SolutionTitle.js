@@ -52,7 +52,7 @@ export default function SolutionTitle() {
             </div>
             <div className="row" style={{paddingBottom: "50px"}}>
                 <div className="col centerItem">
-                    <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"}/>
+                    <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"} text={"Get Started"} />
                 </div>
             </div>
         </section>

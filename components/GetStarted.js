@@ -4,7 +4,7 @@ export default function GetStarted(props) {
     return(
         <div className="monthlyFeeDiv2 centerText" style={{paddingBottom: "20px"}}>
             <p className="ourFont fontSize20 colorFFF" id="servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>{props.title}</p>
-            <a href="/contact-us"><button className="greenButton colorFFF" type="button" style={{width: "140px"}}>Get Started</button></a>
+            <a href="/contact-us"><button className="greenButton colorFFF" type="button" style={{width: "140px"}}>{props.text}</button></a>
         </div>
     );
 }
