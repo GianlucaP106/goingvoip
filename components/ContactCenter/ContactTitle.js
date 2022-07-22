@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ContactText from "./ContactText";
 import GetStarted from "../GetStarted";
+import ContactPlatform from './ContactPlatform';
 
 export default function ContactTitle() {
     return(
@@ -18,6 +19,14 @@ export default function ContactTitle() {
                 </div>
                 <div className="col" id="responsiveColContact"></div>
             </div>
+
+            <ContactPlatform />
+            
+            <div className="row" style={{paddingBottom: "50px"}}>
+                <div className="col centerItem">
+                    <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"}/>
+                </div>
+            </div>
             <div className="row" style={{paddingBottom: "50px"}}>
                 <div className="col" id="responsiveColContact"></div>
                 <div className="col-md-5 contactTitleRight contactTextColMobile">
@@ -30,11 +39,6 @@ export default function ContactTitle() {
                     </div>
                 </div>
                 <div className="col" id="responsiveColContact"></div>
-            </div>
-            <div className="row" style={{paddingBottom: "50px"}}>
-                <div className="col centerItem">
-                    <GetStarted title={"Get high-end telecom functionalities for a low monthly fee"}/>
-                </div>
             </div>
         </section>
     );

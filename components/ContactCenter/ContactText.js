@@ -5,19 +5,21 @@ export default function ContactText(props) {
         if (box == 1) {
             const info = {
                 title: "Contact Center",
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                text: "An industry-grade solution allowing you to manage customer queries from all channels."
             }
             return info;
         }else if (box == 2) {
             const info = {
-                title: "Cloud-based Business Phone Systems",
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                title: "Become one with your customers",
+                text: "GoingVoIP Contact Centre provides you with the opportunity to better service your customers. Alongside GoingVoIP’s experts, you can manage your contact center supervisors and agents in a timely and seamless manner.",
+                text2: "Our Contact Center, powered by Cisco, is a set of tools that are put in place to instanlty increase your customer service level. Your Conatct Center Supervisors can use our real-time stats tool to make changes on the fly, creating a smooth experience for your customers. "
+
             }
             return info;
         }else if (box == 3) {
             const info = {
-                title: "Cloud Telephony Solution",
-                text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                title: "The Best Cloud Telephony Solution",
+                text: "The best cloud telephony solution is waiting for you - allow our high-end business phone solution to modernize your company."
             }
             return info;
         }
@@ -33,7 +35,7 @@ export default function ContactText(props) {
                 <div className="col">
                     <div style={{paddingLeft: (props.box == 1 ? "30px" : ""), paddingTop: "20px"}}>
                         <h5 className={"ourFont fontSize20 ourGreen " + ((props.box == 1 || props.box == 3) ? "" : "noDisplay")}>SimplyVoysis</h5>
-                        <h1 className="ourFont fontSize48 contactTitleMobile">{cardSelector(props.box).title}</h1>
+                        <h1 className="ourFont fontSize48 contactTitleMobile" >{cardSelector(props.box).title}</h1>
                     </div>
                 </div>  
             </div>
@@ -47,7 +49,11 @@ export default function ContactText(props) {
             <div className="row">
                 <div className="col leftText">
                     <div>
-                        <p>{cardSelector(props.box).text}</p>
+                        <p style={{marginTop: "10px"}}>{cardSelector(props.box).text}</p>
+                        { (props.box == 2) && (
+                            <p>{cardSelector(props.box).text2}</p>
+                        )}
+                        
                     </div>
                 </div>
             </div>

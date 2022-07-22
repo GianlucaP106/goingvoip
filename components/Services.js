@@ -15,7 +15,7 @@ export default function Services() {
                 <div className="col-xl">
                     <div className="row">
                         <div className="col-6 centerText">
-                            <div>
+                            <div className="industryGradeDiv">
                                 <img style={{width: "81px", height: "81px"}} src="/assets/services/profSupport.svg" alt="support image"/>
                                 <h6 className="ourFont fontSize24 servicesFontMobile" style={{paddingTop: "20px", fontWeight: "bold"}}>Professional Support</h6>
                             </div>

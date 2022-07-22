@@ -6,9 +6,9 @@ export default function PriceSection(props) {
     function lookUp(priceState) {
         if (priceState == 1) { // 1-20
             const info = {
-                basic: "$19.99",
-                exec: "$29.99",
-                execTeams: "$29.99"
+                basic: "$14.99",
+                exec: "$19.99",
+                execTeams: "$19.99"
             }
             return info;
         } else if (priceState == 2) { // 21-50

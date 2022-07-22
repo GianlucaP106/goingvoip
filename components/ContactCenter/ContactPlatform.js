@@ -14,16 +14,16 @@ export default function ContactPlatform() {
                         </div>
                     </div>
                     <h2 className="ourFont fontSize22" style={{fontWeight: "bold"}}> Contact Center Agent</h2>
-                    <p className="ourFont fontSize14" style={{paddingTop: "20px"}}>SimplyVoysis Agent empowers employees by simplifying call handling and escalation, providing visibility of queue statistics, and allowing them to manage their ACD status.</p>
+                    <p className="ourFont fontSize14" style={{paddingTop: "20px"}}>The ability to have calls answered in a timely fashion, with reports, queue status, all in real time.</p>
                 </div>
                 <div className="col-md centerText platformPad">
                     <div className="centerItem platFormIconPad">
                         <div className="platformIconDiv">
-                            <img src="/assets/icons/contactSupervisorIcon.svg"  alt="Contact supervisor icon" style={{}}/>
+                            <img src="/assets/icons/contactSupervisorIcon.svg"  alt="Contact supervisor icon" style={{width: "100px"}}/>
                         </div>
                     </div>
                     <h2 className="ourFont fontSize22" style={{fontWeight: "bold"}}>Contact Center Supervisor</h2>
-                    <p className="ourFont fontSize14" style={{paddingTop: "20px"}}>SimplyVoysis Supervisor is a powerful reporting and management interface. This gives supervisors and team leaders relevant, real-time performance information on agents and queues.</p>
+                    <p className="ourFont fontSize14" style={{paddingTop: "20px"}}>The ability to manage your contact center agents and queues in real-time.</p>
                 </div>
                 <div className="col-md centerText platformPad">
                     <div className="centerItem platFormIconPad">
@@ -32,8 +32,7 @@ export default function ContactPlatform() {
                         </div>
                     </div>
                     <h2 className="ourFont fontSize22" style={{fontWeight: "bold"}}>Call Recording</h2>
-                    <h6 className="ourFont fontSize16 ourGreen" style={{fontWeight: "bold"}}>Use SimplyVoysis Call Recording for Quality Assurance</h6>
-                    <p className="ourFont fontSize14">SimplyVoysis platform allows recording of calls where supervisors can activate and de-activate in real-time and access to the call after 15minutes.</p>
+                    <p className="ourFont fontSize14">GoingVoIP platform ensure quality assurance with call recording.</p>
                 </div>
             </div>
         </section>
